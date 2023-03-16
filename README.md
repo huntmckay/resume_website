@@ -24,3 +24,9 @@ django supports the "Model View Controller" pattern [MVC](https://realpython.com
 **Controller** handles how the database and the view interact.
 
 with django, it is the controller, and uses a "Model View Template" pattern
+
+What I think know so far:
+
+Django controller needs to know which apps to control
+the project view needs to know which template to return to the requester
+the project urls handles the routing
